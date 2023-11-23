@@ -1,0 +1,66 @@
+Microsoft Windows [Version 10.0.19045.3570]
+(c) Корпорація Майкрософт. Усі права захищені.
+
+C:\Users\user>cd C:\Users\user\Desktop\test
+
+C:\Users\user\Desktop\test>git clone https://github.com/VolodymyrPruhlo/Team_10_CP
+Cloning into 'Team_10_CP'...
+remote: Enumerating objects: 93, done.
+remote: Counting objects: 100% (93/93), done.
+remote: Compressing objects: 100% (82/82), done.
+Receiving objects:  62% (58/93)
+Receiving objects: 100% (93/93), 354.31 KiB | 3.08 MiB/s, done.
+Resolving deltas: 100% (26/26), done.
+
+C:\Users\user\Desktop\test>cd C:\Users\user\Desktop\test\Team_10_CP
+
+C:\Users\user\Desktop\test\Team_10_CP>pip install .
+Processing c:\users\user\desktop\test\team_10_cp
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Requirement already satisfied: requests in c:\users\user\appdata\local\programs\python\python311\lib\site-packages (from Team-10-CP==0.0.1) (2.31.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\user\appdata\local\programs\python\python311\lib\site-packages (from requests->Team-10-CP==0.0.1) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\user\appdata\local\programs\python\python311\lib\site-packages (from requests->Team-10-CP==0.0.1) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\user\appdata\local\programs\python\python311\lib\site-packages (from requests->Team-10-CP==0.0.1) (2.1.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\user\appdata\local\programs\python\python311\lib\site-packages (from requests->Team-10-CP==0.0.1) (2023.7.22)
+Building wheels for collected packages: Team-10-CP
+  Building wheel for Team-10-CP (pyproject.toml) ... done
+  Created wheel for Team-10-CP: filename=Team_10_CP-0.0.1-py3-none-any.whl size=10808 sha256=adb9adcca4ca282d8acc3a5c44beaf5d3720d03eee56505dbbf278847da248a2
+  Stored in directory: C:\Users\user\AppData\Local\Temp\pip-ephem-wheel-cache-0d93lss6\wheels\3b\7a\d3\8aaf3661c265dce3acde6a11ee5ea43eb7ead15fa2dba59d67
+Successfully built Team-10-CP
+Installing collected packages: Team-10-CP
+  Attempting uninstall: Team-10-CP
+    Found existing installation: Team-10-CP 0.0.1
+    Uninstalling Team-10-CP-0.0.1:
+      Successfully uninstalled Team-10-CP-0.0.1
+Successfully installed Team-10-CP-0.0.1
+
+[notice] A new release of pip is available: 23.2.1 -> 23.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Users\user\Desktop\test\Team_10_CP>start_bot
+
+C:\Users\user\Desktop\test\Team_10_CP>pip list
+Package                   Version
+------------------------- ---------
+altgraph                  0.17.4
+certifi                   2023.7.22
+charset-normalizer        3.3.2
+idna                      3.4
+keyboard                  0.13.5
+packaging                 23.2
+pefile                    2023.2.7
+pip                       23.2.1
+pyinstaller               6.1.0
+pyinstaller-hooks-contrib 2023.10
+pywin32-ctypes            0.2.2
+requests                  2.31.0
+setuptools                65.5.0
+Team-10-CP                0.0.1
+urllib3                   2.1.0
+
+[notice] A new release of pip is available: 23.2.1 -> 23.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Users\user\Desktop\test\Team_10_CP>
