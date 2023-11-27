@@ -21,7 +21,7 @@ class Bot(UserInput):
         pass
 
 
-class ConcreteBot(Bot):
+class ConsolBot(Bot):
     def handle(self, action):
         if action == "add":
             name = Name(input("Name: ")).value.strip()
@@ -75,5 +75,5 @@ class ConcreteBot(Bot):
             print("There is no such command!")
 
 
-bot = ConcreteBot()
+bot = ConsolBot()
 bot.Input()
